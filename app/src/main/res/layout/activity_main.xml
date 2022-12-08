@@ -77,7 +77,6 @@
                 android:layout_weight="1"
                 android:scaleType="center"
                 android:src="@drawable/ic_eraser"></ImageButton>
-
             <ImageButton
                 android:id="@+id/btnColor"
                 android:layout_width="0dp"
@@ -85,6 +84,15 @@
                 android:layout_weight="1"
                 android:scaleType="center"
                 android:src="@drawable/ic_color"></ImageButton>
+            <ImageButton
+                android:id="@+id/btnSave"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:src="@drawable/ic_save"
+                android:scaleType="center"
+                android:layout_width="0dp"
+                android:layout_height="70dp">
+            </ImageButton>
         </LinearLayout>
     </LinearLayout>
 
